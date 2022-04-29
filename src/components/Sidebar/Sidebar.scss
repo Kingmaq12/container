@@ -1,0 +1,24 @@
+.sidebar-wrapper {
+  display: flex;
+  border: 8px inset #B82C2C;
+  border-radius: 26px;
+  justify-content: space-between;
+  padding: 1rem;
+  background: snow;
+  align-items: center;
+  &_about{
+    font-size: 1rem;
+  }
+  &_microfront{
+    display: flex;
+    align-items: center;
+    &--title{
+      font-size: 1.5rem;
+    }
+  }
+  .menu-text {
+    margin-inline: 1.5rem;
+  }
+}
+
+
